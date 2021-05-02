@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>creating a form</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+  <style >
+   #form1{border:  black 1px solid;
+		border-radius: 15px;
+	width: 450px; height:470px;
+    background-color: rgb(25 240 214);
+    font-size: 15px;
+    border: 200px;
+box-shadow:  0 13px 6px -6px black;}
+
+   #formfillings>input
+{border: black 2px solid; 
+	   border-radius: 7px;
+	   width:200px; height :30px;
+	   font-size: 12px}
+
+</style>
+ </head>
+<body>
+<center>
+<div id="form1">
+
+<form>
+	
+	<h1 >Register Here
+ <br><br><br>
+	<center>
+		<div id="formfillings">
+	<input type="text"  placeholder="first name" name="first name">
+    <input type="text" placeholder="Last name " name="Last name"><br>
+	<input type="email" placeholder="email " name=" email">
+    <input type="password" placeholder="password " name="password"><br>
+    </div>
+	<label>Date of birth</label><br>
+	<input type="date" name="date"><br>
+	<label>Gender</label><br>
+	<input type="radio" name="gender" value="male"/>Male
+    <input type="radio" name="gender" value="female"/>female
+    <input type="radio" name="gender" value="others"/>others<br>
+    <input type="submit" value="confirm">
+</div>
+     
+</center>
+</form>
+</body>
+</html>
