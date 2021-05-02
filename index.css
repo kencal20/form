@@ -1,0 +1,18 @@
+	#form
+	{border:  black 1px solid;
+		border-radius: 15px;
+	width: 450px; height:340px;
+background-color: rgb(25 240 214);
+ font-size: 20px;
+  box-shadow:  0 10px 6px -6px black;
+}
+
+
+	
+	#formborder>input
+	{border: black 2px solid; 
+	   border-radius: 13px;
+	   width:400px; height :40px;
+	   font-size: 13px
+     
+}
